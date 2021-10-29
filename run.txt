@@ -1,0 +1,15 @@
+while :
+do
+    ./Comparator 10 10 10 10 5 50 OV.dat sol.dat
+    if [ $? -eq 1 ]
+    then
+		break
+	fi
+	echo "Equal Results"
+done
+echo "Different Results"
+
+
+
+
+
